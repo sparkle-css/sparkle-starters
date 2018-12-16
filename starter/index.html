@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sparkle | Starter Kit</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SPARKLE.CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jdriviere/sparkle-css@2.1.0/dist/css/sparkle.min.css">
+
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.3/css/fork-awesome.min.css" integrity="sha256-ZhApazu+kejqTYhMF+1DzNKjIzP7KXu6AzyXcC1gMus=" crossorigin="anonymous">
+
+  <!-- STARTER -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+  <!--
+        Do not forget to delete everything in the <body> section in order to start using
+        Sparkle!
+    -->
+  <!-- HEADER -->
+  <header class="hero make-bg-image make-full-height">
+    <section class="hero__body">
+      <article class="wrapper">
+        <h1 class="make-text-title">Hello, User!</h1>
+        <h3 class="make-text-subtitle">
+          Thank you for using
+          <a href="https://sparklecss.herokuapp.com" class="make-text-bold" target="_blank">
+            Sparkle
+          </a>!
+        </h3>
+      </article>
+    </section>
+    <footer class="hero__footer make-padding-20-vertical">
+      <div class="wrapper">
+        <p class="make-text-bold">Currently on version: <span class="tag make-dark">2.1.0</span></p>
+      </div>
+    </footer>
+  </header>
+
+  <!-- MAIN -->
+  <main class="make-static make-padding-50-vertical">
+    <!-- NAV -->
+    <nav class="nav make-fixed-top">
+      <input type="checkbox" id="nav__trigger">
+      <label for="nav__trigger" class="nav__toggle"></label>
+      <div class="nav__brand">
+        <p>sparkle starter</p>
+      </div>
+      <ul class="nav__menu make-right">
+        <!-- MOBILE -->
+        <li class="nav__menu__item make-phone-hidden">
+          <a href="https://github.com/jdriviere/sparkle-css.git" target="_blank">
+            <i class="fa fa-github-alt"></i>
+          </a>
+        </li>
+        <li class="nav__menu__item make-phone-hidden">
+          <a href="https://github.com/jdriviere/sparkle-css/archive/v2.1.0.zip" target="_blank">
+            <i class="fa fa-download"></i>
+          </a>
+        </li>
+        <!-- TABLET+ -->
+        <li class="nav__menu__item make-tablet-hidden">
+          <a href="https://github.com/jdriviere/sparkle-css.git" target="_blank">
+            <i class="fa fa-github-alt"></i>
+            <span class="make-margin-10-left">Github</span>
+          </a>
+        </li>
+        <li class="nav__menu__item make-tablet-hidden">
+          <a href="https://github.com/jdriviere/sparkle-css/archive/v2.1.0.zip" target="_blank">
+            <i class="fa fa-download"></i>
+            <span class="make-margin-10-left">Download</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- SECTION 1 -->
+    <section class="wrapper make-padding-90-vertical">
+      <div class="columns">
+        <!-- RESPONSIVE -->
+        <article class="column make-text-centered">
+          <header class="make-text-subtitle make-text-primary">
+            <i class="fa fa-tablet fa-2x"></i>
+            <p>Responsive</p>
+          </header>
+          <p>
+            Sparkle is a responsive framework that uses the
+            <span class="make-text-bold">mobile-first</span> approach,
+            which ensures proper mobile view compatibility.
+          </p>
+        </article>
+
+        <!-- MODULAR -->
+        <article class="column make-text-centered">
+          <header class="make-text-subtitle make-text-info">
+            <i class="fa fa-cubes fa-2x"></i>
+            <p>Modular</p>
+          </header>
+          <p>
+            Sparkle offers you the possibility to only import the elements
+            <span class="make-text-bold">you need</span>.
+            Simply comment out what you do not wish to render, then run the
+            provided <code>gulp</code> command!
+          </p>
+        </article>
+
+        <!-- USER-FRIENDLY -->
+        <article class="column make-text-centered">
+          <header class="make-text-subtitle make-text-success">
+            <i class="fa fa-users fa-2x"></i>
+            <p>User-Friendly</p>
+          </header>
+          <p>
+            Sparkle strives to remain as user-friendly as possible,
+            using semantics that can be easily remembered and
+            <span class="make-text-bold">used by anyone</span>.
+          </p>
+        </article>
+
+        <!-- OPEN-SOURCE -->
+        <article class="column make-text-centered">
+          <header class="make-text-subtitle make-text-dark">
+            <i class="fa fa-github fa-2x"></i>
+            <p>Open-Source</p>
+          </header>
+          <p>
+            Most importantly, Sparkle is <span class="make-text-bold">free to use</span>!
+            No fees, ever! And because it is open-source, you are free to request more
+            features and to contribute to the improvement of the framework!
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <section class="wrapper make-padding-30-vertical">
+      <p class="make-text-bold">
+        Designed and coded by
+        <span>
+          <a href="https://jdriviere.github.io">J. D. Riviere</a>
+        </span>
+      </p>
+    </section>
+  </footer>
+</body>
+
+</html>

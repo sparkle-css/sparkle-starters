@@ -1,0 +1,40 @@
+/*
+=====================================
+SPARKLE FORM PAGE
+=====================================
+*/
+.sparkle-form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgba(80, 80, 80, 1.0) 35%, rgba(40, 40, 40, 1.0));
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* FORM */
+.sparkle-form .form {
+    color: rgba(241, 241, 244, 0.6);
+    background: #333;
+    border: 1px solid #212224;
+    border-radius: 1.0rem;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3), 0 6px 15px rgba(0, 0, 0, 0.075);
+}
+
+/* FORM LABELS */
+.sparkle-form .form .label {
+    color: rgba(241, 241, 244, 0.3);
+}
+
+/* FORM LINKS */
+.sparkle-form .form a {
+    color: rgba(241, 241, 244, 0.3);
+}
+.sparkle-form .form a:hover {
+    color: #F1F1F4;
+}
