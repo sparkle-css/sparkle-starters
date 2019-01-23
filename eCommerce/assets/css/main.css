@@ -4,3 +4,21 @@ SPARKLE ECOMMERCE
 ===========================================
 */
 .sparkle-e-comm {}
+
+/* E-COMM FOOTER */
+.sparkle-e-comm .sparkle-e-comm__footer {
+    padding-top: 4.0rem;
+    padding-bottom: 6.0rem;
+    color: #E4E4E8;
+    background: #222528;
+}
+
+.sparkle-e-comm .sparkle-e-comm__footer li {
+    list-style: none;
+}
+.sparkle-e-comm .sparkle-e-comm__footer a:not(.button) {
+    color: rgba(228, 228, 232, 0.5) !important;
+}
+.sparkle-e-comm .sparkle-e-comm__footer a:not(.button):hover {
+    color: rgba(255, 255, 255, 1.0) !important;
+}
