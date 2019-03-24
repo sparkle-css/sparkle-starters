@@ -1,0 +1,16 @@
+/*
+=====================================
+SPARKLE PRICING PAGE
+=====================================
+*/
+.sparkle-pricing {
+}
+
+/* PRICING */
+.sparkle-pricing main {
+    padding: 6.0rem 0;
+}
+
+.sparkle-pricing main .card__header {
+    background: #E4E4E8
+}
