@@ -9,7 +9,7 @@ SPARKLE DASHBOARD
 }
 
 /* SIDE MENU */
-.dashboard .dashboard__sidemenu {
+.dashboard .dashboard-sidemenu {
     width: 100%;
     height: 100vh;
     background: #333;
@@ -17,7 +17,7 @@ SPARKLE DASHBOARD
 }
 
 /* MENU LOGO */
-.dashboard .dashboard__sidemenu .dashboard__logo {
+.dashboard .dashboard-sidemenu .dashboard-logo {
     padding: 1.5rem;
     color: rgba(240, 240, 240, 1.0);
     text-align: center;
@@ -25,34 +25,34 @@ SPARKLE DASHBOARD
 }
 
 /* MENU GROUP */
-.dashboard .dashboard__sidemenu .menu__group {
+.dashboard .dashboard-sidemenu .menu-group {
     margin-top: 2.0rem;
     color: rgba(240, 240, 240, 0.8) !important;
 }
 
 /* MENU ITEM */
-.dashboard .dashboard__sidemenu .menu__item {
+.dashboard .dashboard-sidemenu .menu-item {
     color: rgba(240, 240, 240, 0.6) !important;
 }
-.dashboard .dashboard__sidemenu .menu__item:hover {
+.dashboard .dashboard-sidemenu .menu-item:hover {
     color: #222528 !important;
 }
 
 /* MAIN DASHBOARD */
-.dashboard .dashboard__main {
+.dashboard .dashboard-main {
     width: 100%;
     height: 100%;
     background-color: #F1F1F1;
     overflow-x: hidden;
     overflow-y: auto;
 }
-.dashboard .dashboard__main .dashboard__alerts {
+.dashboard .dashboard-main .dashboard-alerts {
     padding: 2.0rem 0;
 }
-.dashboard .dashboard__main .dashboard__boards {
+.dashboard .dashboard-main .dashboard-boards {
     padding: 2.0rem 0;
 }
-.dashboard .dashboard__main .dashboard__boards .box {
+.dashboard .dashboard-main .dashboard-boards .box {
     padding: 1.5rem;
     background: #F4F4F8;
     border: 1px solid rgba(234, 237, 240, 0.3);
@@ -67,13 +67,13 @@ MEDIA QUERIES
 */
 @media screen and (min-width: 640px) {
     /* SIDE MENU */
-    .dashboard .dashboard__sidemenu {
+    .dashboard .dashboard-sidemenu {
         position: fixed;
         width: 25%;
     }
 
     /* MAIN DASHBOARD */
-    .dashboard .dashboard__main {
+    .dashboard .dashboard-main {
         width: 75%;
         margin-left: 25%;
     }

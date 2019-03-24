@@ -8,7 +8,7 @@ SPARKLE BLOG
 }
 
 /* BLOG ASIDE SECTION */
-.blog .blog__aside {
+.blog .blog-aside {
     height: auto;
     margin: 1.5rem 0;
     padding: 2.0rem;
@@ -18,24 +18,24 @@ SPARKLE BLOG
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-.blog .blog__aside .blog__profile {
+.blog .blog-aside .blog-profile {
     width: auto;
     margin-bottom: 1.0rem;
     text-align: center;
 }
 
-.blog .blog__aside .blog__profile img {
+.blog .blog-aside .blog-profile img {
     width: 128px;
     border-radius: 50%;
 }
 
-.blog .blog__aside .blog__profile .blog__author {
+.blog .blog-aside .blog-profile .blog-author {
     font-size: 2.0rem;
     font-weight: bold;
 }
 
 /* BLOG MAIN SECTION */
-.blog .blog__main {
+.blog .blog-main {
     height: auto;
     margin: 1.5rem 0;
     padding: 2.0rem;
@@ -46,7 +46,7 @@ SPARKLE BLOG
 }
 
 /* BLOG HEADER */
-.blog .blog__main .blog__header {
+.blog .blog-main .blog-header {
     height: 10.0rem;
     line-height: 10.0rem;
     margin-bottom: 1.5rem;
@@ -57,28 +57,28 @@ SPARKLE BLOG
 }
 
 /* BLOG ARTICLES */
-.blog .blog__main .blog__article .blog__post {
+.blog .blog-main .blog-article .blog-post {
     margin-bottom: 2.0rem;
     padding: 1.5rem;
     background: #FFF;
     border: 1px solid silver;
     border-radius: 0.5rem;
 }
-.blog .blog__main .blog__article .blog__post .blog__title {
+.blog .blog-main .blog-article .blog-post .blog-title {
     font-size: 2.4rem;
     font-weight: bold;
 }
-.blog .blog__main .blog__article .blog__post .blog__subtitle {
+.blog .blog-main .blog-article .blog-post .blog-subtitle {
     font-size: 1.8rem;
     font-weight: bold;
 }
-.blog .blog__main .blog__article .blog__image {
+.blog .blog-main .blog-article .blog-image {
     width: 100%;
     margin: 1.5rem 0;
 }
 
 /* BLOG FOOTER */
-.blog .blog__main .blog__footer {
+.blog .blog-main .blog-footer {
     padding-top: 1.5rem;
     border-top: 1px solid #CCC;
 }
